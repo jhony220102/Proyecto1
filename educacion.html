@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="viewport" content="width=device-width,user-scalable=no">
+    <title>Hoja de Vida Digital - Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="300px" height="100px" viewBox="0 0 300 100">
+          <title>Logo JMR</title>
+          <desc>Logo realizado en formato svg mediante la utilización de Inkscape</desc>
+          <image xlink:href="img/logo.svg" width="250px" height="375px"></image>
+      </svg><br/>
+    </header>
+    <section>
+        <h2>Datos Personales</h2>
+          <ul>
+            <li><h3>Nombres: Juan Marcelo</h3></li>
+            <li><h3>Apellido: Rodriguez</h3></li>
+            <li><h3>Fecha de Nacimiento: 22 de Enero de 1977</h3></li>
+            <li><h3>Lugar de Nacimiento: Capital Federal-Buenos Aires(Argentina)</h3></li>
+        </ul><br/>
+        <h2>Menú de Enlaces</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul><br/>
+        <h2>Educación</h2>
+        <table border="1", cellpadding="10", cellspacing="0">
+            <thead>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>1998</td>
+                  <td>Esc. de Educación Técnica N°4 Francisco  de Gurruchaga</td>
+                  <td>Salta Capital</td>
+                  <td>Si</td>
+                </tr>
+                <tr>
+                  <td>2015</td>
+                  <td>Instituto Superior del Milagro N° 5197</td>
+                  <td>Salta Capital</td>
+                  <td>Si</td>
+                </tr>
+                <tr>
+                  <td>2018</td>
+                  <td>Next U</td>
+                  <td>Coconut Grove</td>
+                  <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <br/>
+      <form>
+        <fieldset>
+          <legend>Formulario de Ingreso</legend>
+          <p><h2>Agregar Estudios</h2></p>
+          <p>
+            <label for="Año"><strong>Año</strong></label>
+            <select id="año">
+              <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+              <option>2009</option>
+              <option>2008</option>
+              <option>2007</option>
+              <option>2006</option>
+              <option>2004</option>
+              <option>2003</option>
+              <option>2002</option>
+              <option>2001</option>
+              <option>2000</option>
+            </select>
+          </p>
+          <p>
+            <label for="institucion"><strong>Institución:</strong></label>
+            <input type="text" name="institucion">
+          </p>
+          <p>
+            <label for="lugar"><strong>Lugar:</strong></label>
+            <textarea name="lugar" rows="2" cols="26"></textarea>
+          </p>
+          <p>
+            <label for="culminó"><strong>¿Culminó?</strong></label>
+            <input type="radio" name="opcionculmino" value="si" id="opcionsi" checked="checked"/>
+            <label for="si">SI</label>
+            <input type="radio" name="opcionculmino" value="no" id="opcionno"/>
+            <label for="no">NO</label>
+          </p>
+          <p>
+            <input type="submit" name="" value="Registar">
+          </p>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <p>@Derechos Reservados</p>
+      <ul>
+        <li><h4>Contacto:<a href="mailto:jhony220102@gmail.com?subject=feedback">Email</a></h4></li>
+        <li><h4>Telefono: (540387-154738229)</h4></li>
+        <li><h4>Dirección: Florentino Ameghino N° 635 - Salta Capital - Argentina</h4></li>
+      </ul>
+    </footer>
+  </body>
+</html>
